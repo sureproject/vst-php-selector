@@ -1,5 +1,5 @@
-# VestaCP PHP Multi Selector, PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0
-Vestacp, multi selector versions of php 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 for Ubuntu (Debian).
+# VestaCP PHP Multi Selector, PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 8.2 (fpm)
+Vestacp, multi selector versions of php 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 8.2 (fpm) for Ubuntu (Debian).
 
 It has been tested and works on Ubuntu 18.04 and Debian 9.
 
@@ -13,21 +13,21 @@ You can use one of three scripts for your missions.
 
 1) <h3>cgi</h3>
 ```bash
-wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-cgi.sh 
+wget https://raw.githubusercontent.com/sureproject/vst-php-selector/main/vst-php-cgi.sh 
 chmod a+x ./vst-php-cgi.sh 
 sudo ./vst-php-cgi.sh 
 ```
 
 2) <h3>fcgi</h3>
 ```bash
-wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-fcgid.sh 
+wget https://raw.githubusercontent.com/sureproject/vst-php-selector/main/vst-php-fcgid.sh 
 chmod a+x ./vst-php-fcgid.sh 
 sudo ./vst-php-fcgid.sh 
 ```
 
 3) <h3>fpm</h3>
 ```bash
-wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-fpm.sh 
+wget https://raw.githubusercontent.com/sureproject/vst-php-selector/main/vst-php-fpm.sh 
 chmod a+x ./vst-php-fpm.sh 
 sudo ./vst-php-fpm.sh 
 ```
