@@ -13,8 +13,8 @@ if [[ `cat /etc/os-release | grep ^ID=` == "ID=debian" ]]; then
     echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/php.list
     apt update
 elif [[ `cat /etc/os-release | grep ^ID=` == "ID=ubuntu" ]]; then
-    apt update
-    add-apt-repository ppa:ondrej/php
+    sudo add-apt-repository ppa:ondrej/php
+    sudo apt update
 else    
     echo "This script must be run on Ubuntu or Debian"
     exit 0
